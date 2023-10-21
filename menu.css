@@ -123,6 +123,12 @@ a:hover {
         display: block;
     }
 
+    .mobile-menu-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .mobile-menu-icon img {
         width: 30px;
         height: 30px;
