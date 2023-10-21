@@ -43,14 +43,30 @@ header {
 
 a {
     transition: a .55s ease;
+
 }
 
 a:hover {
     color: #0a0a0a;
 }
 
+.login a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
 .login img {
-    width: 60px;
+    /* width: 50px; */
+    width: 100%;
+    height: auto;
 }
 
 .mobile-menu-icon {

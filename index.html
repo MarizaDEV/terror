@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Terror </title>
-    
+
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="/imagens/logo.png" type="image/svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,33 +24,79 @@
                     <li class="nav-item"><a href="index.html" class="nav-link"> Roupas </a></li>
                     <li class="nav-item"><a href="produtos.html" class="nav-link"> Acessórios </a></li>
                     <li class="nav-item"><a href="servicos.html" class="nav-link"> Decoração </a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link"> Sobre nós </a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link"> Sobre </a></li>
                 </ul>
             </div>
             <div class="login">
-                <a href="#"><img src="imagens/icons/iconperfil.png"/></a>
-                <a href="#"><img src="imagens/icons/iconcarrinho.png"/></a>
+                <a href="#"><img src="imagens/icons/iconperfil.png" id="perfil-carrinho"/></a>
+                <a href="#"><img src="imagens/icons/iconcarrinho.png" id="perfil-carrinho" /></a>
             </div>
-            
+
             <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="imagens/menu_amarelo.svg" alt=""></button>
+                <button onclick="menuShow()"><img class="icon" src="imagens/menu.png" alt=""></button>
             </div>
         </nav>
         <div class="mobile-menu">
             <ul>
-                <li class="nav-item"><a href="index.html" class="nav-link"> HOME </a></li>
-                <li class="nav-item"><a href="produtos.html" class="nav-link"> PRODUTOS </a></li>
-                <li class="nav-item"><a href="servicos.html" class="nav-link"> SERVIÇOS </a></li>
-                <li class="nav-item"><a href="about.html" class="nav-link"> CONTATOS </a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link"> Roupas </a></li>
+                <li class="nav-item"><a href="produtos.html" class="nav-link"> Acessórios </a></li>
+                <li class="nav-item"><a href="servicos.html" class="nav-link"> Decoração </a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link"> Sobre </a></li>
             </ul>
 
             <div class="login">
-                <a href="#"><img src="imagens/icons/iconperfil.png"/></a>
-                <a href="#"><img src="imagens/icons/iconcarrinho.png"/></a>
+                <a href="#"><img src="imagens/icons/iconperfil.png" /></a>
+                <a href="#"><img src="imagens/icons/iconcarrinho.png" /></a>
             </div>
         </div>
         <script src="script.js"></script>
     </header>
+
+    <!-- Inicio SlideShow -->
+    <section class="slide-container">
+    <div class="slider">
+        <div class="slides">
+            <!-- radio botões -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <div class="slide first">
+                <img src="imagens/banners/BANNER1.png" alt="banner coleção it" />
+            </div>
+
+            <div class="slide">
+                <img src="imagens/banners/BANNER2.png" alt="banner coleção jason" />
+            </div>
+
+            <div class="slide">
+                <img src="imagens/banners/BANNER3.png" alt="banner coleção chucky" />
+            </div>
+
+            <div class="slide">
+                <img src="imagens/banners/BANNER4.png" alt="banner coleção ghostface" />
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+
+    </div>
+    </section>
+
+    <script src="slide-container.js"></script>
 
 </body>
 
