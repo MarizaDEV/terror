@@ -7,6 +7,7 @@
     <title> Terror </title>
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="pruduct.css" />
     <link rel="icon" href="/imagens/logo.png" type="image/svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +29,7 @@
                 </ul>
             </div>
             <div class="login">
-                <a href="#"><img src="imagens/icons/iconperfil.png" id="perfil-carrinho"/></a>
+                <a href="#"><img src="imagens/icons/iconperfil.png" id="perfil-carrinho" /></a>
                 <a href="#"><img src="imagens/icons/iconcarrinho.png" id="perfil-carrinho" /></a>
             </div>
 
@@ -54,49 +55,288 @@
 
     <!-- Inicio SlideShow -->
     <section class="slide-container">
-    <div class="slider">
-        <div class="slides">
-            <!-- radio botões -->
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
-            <input type="radio" name="radio-btn" id="radio4">
+        <div class="slider">
+            <div class="slides">
+                <!-- radio botões -->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
 
-            <div class="slide first">
-                <img src="imagens/banners/BANNER1.png" alt="banner coleção it" />
+                <div class="slide first">
+                    <img src="imagens/banners/BANNER1.png" alt="banner coleção it" />
+                </div>
+
+                <div class="slide">
+                    <img src="imagens/banners/BANNER2.png" alt="banner coleção jason" />
+                </div>
+
+                <div class="slide">
+                    <img src="imagens/banners/BANNER3.png" alt="banner coleção chucky" />
+                </div>
+
+                <div class="slide">
+                    <img src="imagens/banners/BANNER4.png" alt="banner coleção ghostface" />
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
             </div>
 
-            <div class="slide">
-                <img src="imagens/banners/BANNER2.png" alt="banner coleção jason" />
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
             </div>
 
-            <div class="slide">
-                <img src="imagens/banners/BANNER3.png" alt="banner coleção chucky" />
-            </div>
-
-            <div class="slide">
-                <img src="imagens/banners/BANNER4.png" alt="banner coleção ghostface" />
-            </div>
-
-            <div class="navigation-auto">
-                <div class="auto-btn1"></div>
-                <div class="auto-btn2"></div>
-                <div class="auto-btn3"></div>
-                <div class="auto-btn4"></div>
-            </div>
         </div>
-
-        <div class="manual-navigation">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
-            <label for="radio4" class="manual-btn"></label>
-        </div>
-
-    </div>
     </section>
 
+    <!-- Linha vermelha -->
+    <div class="linered"></div>
+    <!-- galeria de moletons -->
+    <section class="product-moletons">
+        <h2 class="product-category">MOLETONS</h2>
+        <button class="pre-btn"><img src="imagens/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="imagens/arrow.png" alt=""></button>
+
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagens/moletom/moletomITvermelho.png" class="product-thumb" alt="">
+                    <button class="card-btn">Adicionar no carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">It</h2>
+                    <p class="product-short-description">Moletom IT (vermelho)..</p>
+                    <span class="price">R$80</span><span class="actual-price">R$160</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagens/moletom/moletomITpreto.png" class="product-thumb" alt="">
+                    <button class="card-btn">Adicionar no carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">IT</h2>
+                    <p class="product-short-description">Moletom IT (preto)..</p>
+                    <span class="price">R$80</span><span class="actual-price">R$160</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagens/moletom/moletomjSbranco.png" class="product-thumb" alt="">
+                    <button class="card-btn">Adicionar no carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Jason</h2>
+                    <p class="product-short-description">Moletom jason (branco)..</p>
+                    <span class="price">R$50</span><span class="actual-price">R$100</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagens/moletom/moletomJspreto.png" class="product-thumb" alt="">
+                    <button class="card-btn">Adicionar no carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Jason</h2>
+                    <p class="product-short-description">Moletom jason (verde)..</p>
+                    <span class="price">R$50</span><span class="actual-price">R$100</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">10% off</span>
+                    <img src="imagens/moletom/moletomGhost1.png" class="product-thumb" alt="">
+                    <button class="card-btn">Adicionar no carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Ghostface</h2>
+                    <p class="product-short-description">Moletom Ghostface (Rosa)..</p>
+                    <span class="price">R$108</span><span class="actual-price">R$120</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">10% off</span>
+                    <img src="imagens/moletom/moletomGhost2.png" class="product-thumb" alt="">
+                    <button class="card-btn">Adicionar no carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Ghostface</h2>
+                    <p class="product-short-description">Moletom Ghostface (preto)..</p>
+                    <span class="price">R$108</span><span class="actual-price">R$120</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">10% off</span>
+                    <img src="imagens/moletom/MoletomChuckypreto.png" class="product-thumb" alt="">
+                    <button class="card-btn">Adicionar no carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Chucky</h2>
+                    <p class="product-short-description">Moletom chucky (preto)..</p>
+                    <span class="price">R$108</span><span class="actual-price">R$120</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">10% off</span>
+                    <img src="imagens/moletom/MoletomChuckyAzul.png" class="product-thumb" alt="">
+                    <button class="card-btn">Adicionar no carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Chucky</h2>
+                    <p class="product-short-description">Moletom chucky (azul)..</p>
+                    <span class="price">R$108</span><span class="actual-price">R$120</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- galeria de camisas -->
+    <section class="product-camisetas">
+        <h2 class="product-category">CAMISETAS</h2>
+        <button class="pre-btn"><img src="imagens/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="imagens/arrow.png" alt=""></button>
+
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagens/camisas/CamisaITpreta.png" class="product-thumb" alt="">
+                    <button class="card-btn">Adicionar no carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">It</h2>
+                    <p class="product-short-description">Camiseta IT (preto)..</p>
+                    <span class="price">R$40</span><span class="actual-price">R$80</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagens/camisas/CamisaITbranca.png" class="product-thumb" alt="">
+                    <button class="card-btn">Adicionar no carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">IT</h2>
+                    <p class="product-short-description">Camiseta IT (branca)..</p>
+                    <span class="price">R$30</span><span class="actual-price">R$60</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagens/camisas/CamisaJspreta.png" class="product-thumb" alt="">
+                    <button class="card-btn">Adicionar no carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Jason</h2>
+                    <p class="product-short-description">camiseta jason (preta)..</p>
+                    <span class="price">R$60</span><span class="actual-price">R$120</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagens/camisas/CamisaJsbranca.png" class="product-thumb" alt="">
+                    <button class="card-btn">Adicionar no carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Jason</h2>
+                    <p class="product-short-description">camiseta jason (branca)..</p>
+                    <span class="price">R$50</span><span class="actual-price">R$100</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">10% off</span>
+                    <img src="imagens/camisas/CamisaGhpreta.png" class="product-thumb" alt="">
+                    <button class="card-btn">Adicionar no carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Ghostface</h2>
+                    <p class="product-short-description">camiseta Ghostface (preta)..</p>
+                    <span class="price">R$72</span><span class="actual-price">R$80</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">10% off</span>
+                    <img src="imagens/camisas/CamisaGhbranca.png" class="product-thumb" alt="">
+                    <button class="card-btn">Adicionar no carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Ghostface</h2>
+                    <p class="product-short-description">camiseta Ghostface (branca)..</p>
+                    <span class="price">R$72</span><span class="actual-price">R$80</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">10% off</span>
+                    <img src="imagens/camisas/CamisaChuckypreto.png" class="product-thumb" alt="">
+                    <button class="card-btn">Adicionar no carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Chucky</h2>
+                    <p class="product-short-description">camiseta chucky (preto)..</p>
+                    <span class="price">R$52</span><span class="actual-price">R$60</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagens/camisas/CamisaChuckybranca.png" class="product-thumb" alt="">
+                    <button class="card-btn">Adicionar no carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Chucky</h2>
+                    <p class="product-short-description">camiseta chucky (branca)..</p>
+                    <span class="price">R$52</span><span class="actual-price">R$60</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
     <script src="slide-container.js"></script>
+    <script src="produtos.js"></script>
+
 
 </body>
 
