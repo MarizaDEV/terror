@@ -22,3 +22,20 @@ body {
   height: 30px;
   background-color: #8A1C1C;
 }
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 1fr;
+}
+
+.cont-2 {
+  background-color: #9c9696;
+}
+
+
+@media (max-width: 1024px) {
+  .conteudo {
+    grid-template-columns: 1fr;
+  }
+}
