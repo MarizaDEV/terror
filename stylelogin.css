@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  body {
+    width: 100%;
+    margin: 0px;
+    list-style: none;
+    font-family: gelasio;
+    font-size: 18px;
+  }
+  
