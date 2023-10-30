@@ -3,7 +3,7 @@
 
 ### Tela inicial do projeto versão pc e mobile
 
-<img src="imagem.png">
+<img src="https://github.com/MarizaDEV/terror/blob/main/imagens/telas.png">
 
 ### Ajustes e melhorias
 
